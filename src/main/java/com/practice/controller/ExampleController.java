@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ExampleController {
 	@RequestMapping("/example")
 	public String example() {
-		
+
 		return "example";
 	}
-
+	// new commet
 }
